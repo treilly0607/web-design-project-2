@@ -1,0 +1,278 @@
+/* css styling for h1 element*/
+
+header {
+    
+    /*background-image: url(../Images/background.jpg);*/
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    color: white;
+    border: none;
+}
+
+/*__________________________________________________CONTENT*/
+
+#content{
+    
+    float:left;
+    width: 80%;
+    border: none;
+    color: black
+}
+
+/*__________________________________________________.COL_DETAIL*/
+
+.col_detail{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+/*__________________________________________________ASIDE*/
+
+aside{
+    background-color: red;
+    border: 2px solid black;
+    width: 17%;
+    float: right;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 15px;
+    margin: 0px;
+}
+
+aside ul li{
+    list-style-type: none;
+    text-align: left;
+    color: white;
+}
+
+aside ul li a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+/*__________________________________________________NAVIGATION*/
+
+nav {
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+}
+
+nav ul{
+    font-size: 1em;
+}
+
+nav ul li {
+    color: white;
+    text-align: center;
+    background-color: gray;
+    display: inline;
+    padding: 15px;
+    margin: 15px;
+}
+
+nav ul :hover{
+
+    background-color: red;
+
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+}
+
+/*__________________________________________________FOOTER*/
+
+footer{
+ color: white;
+   clear: both 
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: red;
+    
+    text-align: center;
+    
+    float: right;
+     display: inline-block;
+}
+
+footer ul{
+    
+     list-style-type: none;
+    display: inline-block;
+}
+
+
+footer ul li{
+    color: white;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+footer ul li a{
+    color: black;
+     text-decoration: none;
+     display: inline-block;
+}
+
+/*__________________________________________________SECTION*/
+
+section{
+    background-color: white;
+    color: black;
+    text-align: left;
+    align-content: center;
+    padding: 10px;
+    margin; 10px;
+}
+
+#seperate{
+    text-align: left;
+      float: left;
+     width: 80%;
+    border: 1px solid grey;
+}
+
+
+
+
+.aboutUs {
+    float:right;
+    text-align: left;
+    
+}
+
+
+
+.showimages {
+    float: right;
+    text-align: left;
+}
+
+.staff {
+    float: left;
+     width: 100%;
+    border: none;
+    background-color: lightgrey
+}
+
+/*----------------------------------------Conatct*/
+contact {
+    font-family: sans-serif;
+    background-image: url(../images/Saint_Peters.jpg);
+    background-size: cover;
+    float: left;
+    margin-left: 10px;
+}
+
+.required {
+    font-weight: bold;
+    color: red;
+}
+
+label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+
+input[type="radio"] {width: 10px;}
+
+input[type="checkbox"] {width: 15px;}
+
+#button {
+    margin-left: 138px;
+}
+
+#reset {
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+}
+
+
+/*---------------------------------------------TABLE*/
+table th
+{
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+    color: red;
+    font-size: 20px;
+    
+}
+
+table tr
+{
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: left;
+}
+
+table td
+{
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	text-align: inherit;
+    color: black;
+    font-size: 15px;
+}
+table {
+    
+    background-color: lightgray;
+    margin: 19px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 2px;
+}
+
+caption {
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: red;
+    color: black;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin: 5px;
+    padding: 1px;
+    border: none;
+}
+
+.tablePhoto {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
