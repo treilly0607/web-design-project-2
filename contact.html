@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en">	<!-- declaring langauge -->
+<head>
+	<meta charset="utf-8" />	<!--8-bit character encoding capable of encoding all possible characters-->
+	<meta name="description" content="Soccer Player Ranking and Biography">
+    <meta name="keywords" content="soccer ranking biography">
+	<meta name="author" content="Tristan Reilly">
+	<title>Soccer Rankings</title>
+	<link rel="stylesheet" type="text/css" href="Styles/mainStyles.css"/>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+</head>
+    
+    <body style="background-color: white; margin: 0px;">
+        <header>
+            <img style="float: left; height: 50px; width: 50px;" src="Images/logo.png" alt = "logo">
+            <h1 style="margin: 0px; padding: 0px; color: white;">www.WorldSoccerRankings.com</h1>
+        </header>
+        <main>
+        <a name="pagetop"></a>
+            <nav>
+                <ul> <!-- Unordered List -->
+                    <li id="active"> <a href="index.html">Home</a></li>
+                    <li> <a href="#">Team Rankings</a></li>
+                    <li> <a href="players.html">Player Rankings</a></li>
+                    <li> <a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        
+            <contact>
+                <h3>Please enter the following information:</h3>
+            <form action="http://year1.cpdev.me/FormTest.php" method="post">
+                <label for="first_name">First Name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+                <label for="last_name">Last Name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" required><br>
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                
+                <label for="gender">Gender :</label>
+                <input type="radio" id="gender" name="gender" value="male">Male
+                <input type="radio" id="gender" name="gender" value="female">Female
+                <input type="radio" id="gender" name="gender" value="other" checked>Other <br>
+                
+                <label for="internet"> Heard Of Us:</label>
+                <section>
+                <fieldset style="margin-right: 5px">
+                    <input type="checkbox" id="internet" name="internet" value="internet"> Internet <br>
+                    <input type="checkbox" class="marginl" id="hear" name="paper" value="paper"> Newspaper <br>
+                    <input type="checkbox" class="marginl" id="hear" name="friend" value="friend"> Friend <br>
+                    <input type="checkbox" class="marginl" id="hear" name="add" value="add" checked> Others <br>
+                </fieldset>
+                </section>
+                <br>
+                <label for="message">Query  :</label>
+                
+                <textarea cols="40" rows="6" id="message" placeholder="Your Message must be less then 200 characters" data-maxlegnth="200" cols="40" ></textarea> <br>
+                
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+                
+            </form>
+            <p style="margin-left: 138px"> <span class="required">*</span> <em> indicates a required field</em></p>
+            </contact>
+           <section style="float: right;">
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A defender so good he became an Invincible twice. <br><br>Happy birthday, Kolo! 🎈 <a href="https://t.co/95TJbfTfzW">pic.twitter.com/95TJbfTfzW</a></p>&mdash; Arsenal (@Arsenal) <a href="https://twitter.com/Arsenal/status/1240535224502509568?ref_src=twsrc%5Etfw">March 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </section>   
+        </main>
+        
+        <footer style="margin-top: 69px;">
+            <p style="margin: 0;"><a href="#top">Go to Top of Page</a></p>
+                <ul style="margin: 0;">
+                    <li> <a href="home.html">Home</a></li>
+                    <li> <a href="#">Team Rankings</a></li>
+                    <li> <a href="#">Player Rankings</a></li>
+                    <li> <a href="#">Contact Us</a></li>
+                </ul>
+            <h5 style="margin: 0;">&copy;Copyright Football Rankings</h5>
+	</footer>
+    </body>
+</html>
